@@ -1,0 +1,6 @@
+{
+  "name": "syncer",
+  "tree": {
+    "$path": "lib"
+  }
+}
