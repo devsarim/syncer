@@ -5,10 +5,11 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 
 local IS_SERVER = RunService:IsServer()
+local Packages = script.Parent.Parent
 
-local Rodux = require(ReplicatedStorage.Packages.Rodux)
-local Promise = require(ReplicatedStorage.Packages.Promise)
-local t = require(ReplicatedStorage.Packages.t)
+local Rodux = require(Packages.Rodux)
+local Promise = require(Packages.Promise)
+local t = require(Packages.t)
 
 local NetDefinitions = require(script.Parent.remoteDefinitions)
 local StateChanged = NetDefinitions.Server:Get("StateChanged")

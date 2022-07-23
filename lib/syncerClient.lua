@@ -1,7 +1,9 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Rodux = require(ReplicatedStorage.Packages.Rodux)
-local Promise = require(ReplicatedStorage.Packages.Promise)
+local Packages = script.Parent.Parent
+
+local Rodux = require(Packages.Rodux)
+local Promise = require(Packages.Promise)
 
 local NetDefinitions = require(script.Parent.remoteDefinitions)
 local StateChanged = NetDefinitions.Client:Get("StateChanged")
