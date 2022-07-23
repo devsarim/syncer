@@ -1,4 +1,4 @@
-local Net = require(game:GetService("ReplicatedStorage").Packages.Net)
+local Net = require(script.Parent.Parent.Net)
 
 return Net.CreateDefinitions({
   StateChanged = Net.Definitions.ServerToClientEvent(),
