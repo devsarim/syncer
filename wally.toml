@@ -1,7 +1,11 @@
 [package]
-name = "devsa/syncer"
+name = "devsarim/syncer"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
+Rodux = "roblox/rodux@3.0.0"
+Net = "vorlias/net@3.0.1"
+Promise = "evaera/promise@4.0.0"
+t = "osyrisrblx/t@3.0.0"

@@ -1,6 +1,16 @@
 {
   "name": "syncer",
   "tree": {
-    "$path": "lib"
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      },
+
+      "syncer": {
+        "$path": "lib"
+      }
+    }
   }
 }
